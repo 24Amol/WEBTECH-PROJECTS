@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../PROJECT 9/ASSETS/FILES/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+        body{
+            background-color: #edf1f4;
+        }
+        #Container{
+            height: 500px;
+            width: 350px;
+            border: 1px solid red;
+            border-radius: 20px;
+            box-shadow: outset 15px 15px 20px rgba(0, 0, 0, 0.1),-15px -15px 20px #fff;
+            box-shadow: -8px -7px 2px 2px black;
+            margin: 100px auto;
+        
+        }
+        #Container:hover{
+            box-shadow: 5px 5px 2px 2px black;
+        }
+        .info{
+            height: 40px;
+            width: 300px;
+            border: 1px solid;
+            margin: 20px auto;
+            border-radius: 20px;
+        }
+        #icon1{
+            margin-top: 7px;
+            font-size: 1.55rem;
+            margin-left: 10px;
+            color: red;
+        }
+        .inputs{
+            width: 224px;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid blue;
+            margin-left: 5px;
+            box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),inset -5px -5px 20px #fff;
+        }
+        #icon2{
+            font-size: 2rem;
+            margin-left: 15px;
+            color: red;
+            display: inline-block;
+        }
+        #input2{
+            margin-left: 15px;
+        }
+        #icon3{
+            font-size: 1.30rem;
+            margin-top: 7px;
+            margin-left: 14px;
+            color: red;
+        }
+        button{
+            width: 300px;
+            height: 40px;
+            margin-left: 20px;
+            background-color: red;
+            border-radius: 20px;
+            font-size: larger;
+            font-weight: 700;
+            font-family: 'Lato';
+            box-shadow: outset 5px 5px 10px rgba(253, 5, 5, 0.1),inset -5px -5px 20px #fc0303;
+        }
+        button:hover{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div id="Container">
+        <div class="info" id="User">
+            <i id="icon1" class="fa fa-user-circle-o" aria-hidden="true"></i>
+            <input class="inputs" id="input1" type="text" autofocus>
+        </div>
+
+        <div class="info" id="User">
+            <i id="icon2" class="fa fa-mobile" aria-hidden="true"></i>  
+            <input class="inputs" id="input2" type="text" autofocus>
+        </div>
+
+        <div class="info" id="User">
+            <i id="icon3" class="fa fa-envelope" aria-hidden="true"></i>           
+            <input class="inputs" id="input3" type="text" autofocus>
+        </div>
+        <button type="submit">SUBMIT</button>
+    </div>
+</body>
+</html>

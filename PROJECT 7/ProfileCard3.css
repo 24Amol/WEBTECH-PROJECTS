@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: white;
+}
+#Main{
+    height: 450px;
+    width: 350px;
+    border: 1px solid cyan;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: orangered;
+    border-radius: 30px;
+
+}
+
+#Img{
+    height: 180px;
+    width: 180px;
+    border: 1px solid cyan;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(./IMAGES/Amol.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#Data{
+    height: 200px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+#Data ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-left: 10px;
+}
